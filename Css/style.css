@@ -55,6 +55,7 @@ nav{
     padding: 2px 5px;
     font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
+    transition: 500ms;
 }
 
 .parallax{
@@ -68,7 +69,7 @@ nav{
 
 .cont-que{
     background-color: #211c3b;
-    height: fit-content;
+    height: 500px;
     display: flex;
     justify-content: center;
     padding-bottom: 35px;
@@ -142,8 +143,8 @@ nav{
 .apip{
     background-color: #fff;
     float: right;
-    height: 325px;
-    width: 500px;
+    height: 418px;
+    width: 365px;
     padding: 15px;
     margin-top: 90px;
     font-family: 'Poppins', sans-serif;
@@ -156,8 +157,8 @@ nav{
 .spap{
     background-color: #fff;
     float: right;
-    height: 325px;
-    width: 500px;
+    height: 418px;
+    width: 365px;
     padding: 15px;
     margin-top: 90px;
     font-family: 'Poppins', sans-serif;
@@ -497,4 +498,67 @@ a.ee{
     transform: translateX(0);
     transition: all 1.5s;
     transition-delay: 1200ms;
+}
+
+.buttons a:hover{
+    color: #2d9471;
+    background-color: #ffffff;
+    transition: 500ms;
+}
+
+.apiw.hidden{
+    opacity: 0;
+    height: 1px;
+    transition: all 2s;
+    overflow: hidden;
+}
+
+.apiw.show{
+    opacity: 1;
+    height: 380px;
+    transition: all 2s;
+    color: #2d9471;
+}
+
+.spaw.hidden{
+    opacity: 0;
+    height: 1px;
+    transition: all 2s;
+    overflow: hidden;
+}
+
+.spaw.show{
+    opacity: 1;
+    height: 380px;
+    transition: all 2s;
+    color: #2d9471;
+}
+.arrow{
+    position: fixed;
+    background-color: black;
+    right: 8vw;
+    bottom: 15vh;
+    z-index: 9;
+    transition: all 500ms;
+    opacity: 0;
+}
+
+.arrow img{
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    transition: all 500ms;
+}
+
+.arrow a{
+    position: absolute;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.arrow img:hover{
+    background-color: #2d9471;
+    transition: all 500ms;
 }
