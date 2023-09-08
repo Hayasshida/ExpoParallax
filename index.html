@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="shortcut icon" href="Img/icon.png" type="image/x-icon">
+    <title>Diferenças entre api e spa</title>
+</head>
+<body id="0">
+    <header>
+        <nav>
+            <div class="title">
+                <p>
+                    API <span class="dif">X</span> <a onclick="aparecer()">SPA</a>
+                </p>
+            </div>
+            <div class="buttons">
+                <a href="https://www.instagram.com/sra_dwarda/" class="ee">Duda</a>
+                <a href="#1">O que é?</a>
+                <a href="#2">Propósito</a>
+                <a href="#3">Pontos Positivos</a>
+                <a href="#4">Pontos Negativos</a>
+            </div>
+        </nav>
+    </header>
+    <section class="parallax"></section>
+    <div class="cont-que" id="1">
+        <h1>O QUE É?</h1>
+        <section class="apiw">
+            <h2>API</h2>
+            <p>
+                Ao pé da letra API significa Application Programing Interface ou Interface de Programação de Aplicação, em português. Mas o que isso quer dizer? Esta sigla faz menção ao processo que há por de trás da maioria dos aplicativos, geralmente, realizando a comunicação entre o front-end(parte visual) e back-end(parte operacional), tratamento de dados e validações.
+            </p>
+        </section>
+        <section class="spaw">
+            <h2>SINGLE APPLICATION</h2>
+            <p>
+                Aplicações de páginas únicas, ou single applications é uma outra forma de criar, implementar e carregar um site. Em contrapartida ao uso de API’s, as single applications visam utilizar menos o back-end/server side e alocar maior conteúdo no lado do usuário, assim diminuindo o tempo de resposta já que as requisições serão mínimas.
+            </p>
+        </section>
+    </div>
+    <section class="parallax2"></section>
+    <div class="cont-prop" id="2">
+        <h1 class="hidden">PROPÓSITO</h1>
+        <section class="apip hidden">
+            <h2>API</h2>
+            <p>
+                No processo de criação de uma API os desenvolvedores focam principalmente na abstração e facilidade de implementação a diferentes aplicações, ao mesmo passo ela cria uma padronização que garante maior segurança e coesão às regras de negócio.
+            </p>
+        </section>
+        <section class="spap hidden">
+            <h2>SINGLE APPLICATION</h2>
+            <p>
+                Um dos principais objetivos de desenvolver um site em single application é proporcionar uma experiência de usuário mais rápida, interativa e eficiente, que se assemelhe a aplicativos nativos e reduzir a sobrecarga do servidor.
+            </p>
+        </section>
+    </div>
+    <section class="parallax3"></section>
+    <div class="cont-pos" id="3">
+        <h1 class="hidden">PONTOS POSITIVOS</h1>
+        <section class="apipos hidden">
+            <h2>API</h2>
+            <ul class="lista">
+                <li class="f hidden">
+                    <b>ACELERAÇÃO DO DESENVOLVIMENTO:</b> com a implementação de API’s públicas já existentes podemos pular etapas de desenvolvimento pois serão mantidas por terceiros.
+                </li>
+                <li class="s hidden">
+                    <b>INTEGRAÇÃO:</b> permite maior integração entre aplicativos e recursos back-end, como banco de dados e outros scripts.
+                </li>
+                <li class="t hidden">
+                    <b>AUTOMATIZAÇÃO DE TAREFAS:</b> As APIs podem ser usadas para automatizar tarefas repetitivas, economizando tempo e minimizando erros humanos.
+                </li>
+            </ul>
+        </section>
+        <section class="spapos hidden">
+            <h2>SINGLE APPLICATION</h2>
+            <ul class="lista2">
+                <li class="f hidden">
+                    <b>EXPERIÊNCIA INTERATIVA:</b> Oferece uma experiência de usuário mais interativa e responsiva, pois permitem a atualização do conteúdo sem recarregar toda a página.
+                </li>
+                <li class="s hidden">
+                    <b>REDUÇÃO DE REQUISIÇÕES DE SERVIDOR:</b> Minimizam as requisições de servidor, buscando dados apenas quando necessário.
+                </li>
+                <li class="t hidden">
+                    <b>MANUTENÇÃO SIMPLES:</b> Devido à separação clara entre o front-end e o back-end, as elas podem ser mais fáceis de manter e atualizar.
+                </li>
+            </ul>
+        </section>
+    </div>
+    <section class="parallax4"></section>
+    <div class="cont-neg">
+        <h1 class="hidden">PONTOS NEGATIVOS</h1>
+        <section class="apineg hidden">
+            <h2>API</h2>
+                <ul class="lista">
+                    <li class="f hidden">
+                        <b>NECESSIDADE DE AUTENTICAÇÃO:</b> Devido a comunicação com meios externos a validação de requisições e respostas do sistema se torna essencial para a segurança de todo ecossistema, já que este é um ponto de vulnerabilidade e ataques externos. 
+                    </li>
+                    <li class="s hidden">
+                        <b>COMPLEXIDADE DE CÓDIGO:</b> A lógica e linguagem de programação back-end são de complexa compreensão, por isso há uma dificuldade de implementação para programadores menos experientes, criando uma maior dependência da documentação da API.
+                    </li>
+                    <li class="t hidden">
+                        <b>CUSTOS DE MANUTENÇÃO:</b> Manter uma API requer recursos contínuos, incluindo suporte técnico, atualizações, correções de segurança e escalabilidade. Isso pode gerar custos significativos ao longo do tempo.
+                    </li>
+                </ul>
+        </section>
+        <section class="spaneg hidden" id="4">
+            <h2>SINGLE APPLICATION</h2>
+                <ul class="lista2">
+                    <li class="f hidden">
+                        <b>MECANISMOS DE PESQUISA DIFICULTADOS:</b> As single applications tinham desafios de busca devido à falta de conteúdo indexável nas páginas.
+                    </li>
+                    <li class="s hidden">
+                        <b>DESENVOLVIMENTO COMPLEXO:</b> O desenvolvimento de uma single application pode ser mais complexo do que o de sites tradicionais devido ao gerenciamento de estados no lado do cliente e implementação de estratégias para carregamento eficiente.
+                    </li>
+                    <li class="t hidden">
+                        <b>COMPATIBILIDADE:</b> Nem todos os navegadores suportam recursos avançados de JavaScript usados em single applications, o que pode exigir o uso de polyfills (códigos extras para preencher lacunas de compatibilidade) ou limitar a compatibilidade com versões mais antigas dos navegadores.
+                    </li>
+                </ul>
+        </section>
+    </div>
+    <section class="parallax5">
+        <h1 class="hidden">CRIADO POR: <br> PEDRO HAYASHIDA DE AZEVEDO</h1>
+    </section>
+</body>
+<script src="Js/index.js"></script>
+</html>
