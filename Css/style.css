@@ -47,14 +47,26 @@ nav{
 }
 
 .buttons a{
-    color: #ffffff;
+    color: #2d9471;
+    font-family: 'Press Start 2P', cursive;
     text-decoration: none;
-    border: 1px solid #2d9471;
-    border-radius: 8px;
-    background-color: #2d9471;
-    padding: 2px 5px;
-    font-size: 1.2em;
-    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+.buttons a::before{
+    content: "";
+    margin-right: 15px;
+    width: 8px;
+    height: 8px;
+    background: #551a8b;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.buttons a:hover{
+    color: #551a8b;
+    transform: scale(1.1);
     transition: 500ms;
 }
 
@@ -500,11 +512,7 @@ a.ee{
     transition-delay: 1200ms;
 }
 
-.buttons a:hover{
-    color: #2d9471;
-    background-color: #ffffff;
-    transition: 500ms;
-}
+
 
 .apiw.hidden{
     opacity: 0;
