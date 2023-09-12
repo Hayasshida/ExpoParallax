@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -12,6 +12,11 @@ body{
     word-wrap: break-word;
     overflow-wrap: break-word;
     overflow-x: hidden;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 2.2em;
 }
 
 nav{
@@ -32,9 +37,9 @@ nav{
 
 .title p{
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 .buttons{
@@ -48,24 +53,25 @@ nav{
 
 .buttons a{
     color: #2d9471;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     transition: 500ms;
+    font-size: 1.2em;
 }
 
 .buttons a::before{
     content: "";
-    margin-right: 15px;
+    margin-right: 1.21765601217656vh;
     width: 8px;
     height: 8px;
-    background: #551a8b;
+    background: #a146f5;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 0.21961932650073207vw;
 }
 
 .buttons a:hover{
-    color: #551a8b;
+    color: #a146f5;
     transform: scale(1.1);
     transition: 500ms;
 }
@@ -121,7 +127,7 @@ nav{
 }
 
 .cont-que h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -130,7 +136,7 @@ nav{
 
 .cont-que section h2{
     text-indent: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -186,7 +192,7 @@ nav{
 }
 
 .cont-prop h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -195,7 +201,7 @@ nav{
 
 .cont-prop section h2{
     text-indent: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #211c3b;
 }
@@ -250,7 +256,7 @@ nav{
 }
 
 .cont-pos h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: absolute;
     color: #2d9471;
@@ -258,7 +264,7 @@ nav{
 
 .cont-pos section h2{
     text-indent: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #2d9471;
 }
@@ -314,7 +320,7 @@ nav{
 }
 
 .cont-neg h1{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -353,7 +359,7 @@ nav{
 
 .cont-neg section h2{
     text-indent: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -377,7 +383,7 @@ a.ee{
 
 .title p a{
     text-decoration: none;
-    color: #551a8b;
+    color: #a146f5;
 }
 
 .dif{
